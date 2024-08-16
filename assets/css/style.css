@@ -1567,20 +1567,11 @@ main
     transform: translateX(-50%);
 }
 
-.farmars__item:nth-child(1) img {
-    object-position: right;
-}
-
-.farmars__item:nth-child(2) img {
-    object-position: 95% 0%;
-}
-
 .farmars__content {
     padding: 33% 25px 45px;
     background-color: var(--primary-white);
     /* box-shadowを表示させるmargin */
     margin: 33% 8px 8px 8px;
-
 }
 
 .farmars__catch {
