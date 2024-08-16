@@ -22,6 +22,17 @@
         });
     });
 
+    // link_buttonが押されたときに.hamburger要素からfixed, activeクラスを削除
+    var linkButtons = document.querySelectorAll('.nav__item');
+    linkButtons.forEach(function (linkButton) {
+        linkButton.addEventListener('click', function () {
+            elements.forEach(function (element) {
+                element.classList.remove('active');
+                element.classList.remove('fixed');
+            });
+        });
+    });
+
     // slick
     // windowsサイズに応じて変更
     $(function () {
